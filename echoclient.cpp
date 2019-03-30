@@ -43,7 +43,7 @@ int main(int argc, char **argv)
         return -1;
     }
     printf("dev_test branch modifiy 1");
-    printf("added by dev_test1 branch");
+    printf("added by dev_test1 branch modify 1");
     str_cli(stdin, clientfd);
     return 0;
 }
