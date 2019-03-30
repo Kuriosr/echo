@@ -42,7 +42,8 @@ int main(int argc, char **argv)
         printf("Can not connect echoserver\n");
         return -1;
     }
-    printf("dev_test1 branch");
+    printf("dev_test branch modifiy 1");
+    printf("added by dev_test1 branch");
     str_cli(stdin, clientfd);
     return 0;
 }
